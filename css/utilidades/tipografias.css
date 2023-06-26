@@ -1,0 +1,28 @@
+.font-1-titulo {
+    font: 700 4rem/1.125 "Kanit", sans-serif;
+    text-transform: uppercase;
+  }
+
+.font-1-subtitulo {
+    font: 500 1.5rem/1.25 "Kanit", sans-serif;
+    text-transform: uppercase;
+  }
+
+.font-1-corpo {
+  font: 300 1rem/1.5 "Kanit", sans-serif;
+}
+
+.font-1-thin {
+  font: 250 1rem/1.5 "Kanit", sans-serif;
+  text-transform: uppercase;
+}
+
+.font-2-titulo {
+  font: 700 3rem/1.125 "Amiri", sans-serif;
+  text-transform: uppercase;
+}
+
+.font-2-subtitulo {
+  font: 400 1.5rem/1.25 "Amiri", sans-serif;
+  text-transform: uppercase;
+}
