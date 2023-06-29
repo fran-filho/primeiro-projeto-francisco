@@ -1,0 +1,30 @@
+.botao-1 {
+  display: inline-flex;
+  padding: 16px 30px;
+  border: 5px 5px 5px 5px;
+  border-radius: 5px;
+  background: var(--amarelo, #ECD087);
+  box-shadow: 0px 0.951047956943512px 3.623039960861206px 0px rgba(221, 161, 94, 0.13), 0px 2.629525899887085px 10.017241477966309px 0px rgba(221, 161, 94, 0.18), 0px 6.330885410308838px 24.117658615112305px 0px rgba(221, 161, 94, 0.23), 0px 21px 80px 0px rgba(221, 161, 94, 0.36);
+  text-transform: uppercase;
+  color: var(--cor-3);
+  font: 700 1rem/1.5 "Kanit", sans-serif;
+  justify-content: center;
+  align-self: center;
+  max-width: max-content;
+  cursor: pointer;
+}
+
+.botao-2 {
+  display: inline-flex;
+  padding: 16px 30px;
+  border-radius: 5px;
+  border: 2px solid var(--cor-c2, #B0AFAE);
+  box-shadow: 0px 2.541820526123047px 2.7479140758514404px 0px rgba(0, 0, 0, 0.09), 0px 6.428454875946045px 6.949680805206299px 0px rgba(0, 0, 0, 0.13), 0px 13.113445281982422px 14.176697731018066px 0px rgba(0, 0, 0, 0.16), 0px 27.01121711730957px 29.201316833496094px 0px rgba(0, 0, 0, 0.20), 0px 74px 80px 0px rgba(0, 0, 0, 0.29);
+  text-transform: uppercase;
+  color: var(--cor-c2);
+  font: 700 1rem/1.5 "Kanit", sans-serif;
+  justify-content: center;
+  align-self: center;
+  max-width: max-content;
+  cursor: pointer;
+}

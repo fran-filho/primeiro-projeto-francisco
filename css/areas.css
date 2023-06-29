@@ -1,0 +1,27 @@
+.areas-bg {
+    background-color: var(--cor-2);
+}
+
+.areas h2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*
+.areas ul {
+    display: grid;
+    margin: 0 auto;
+}*/
+
+.areas-boxes ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 0 auto;
+}
+
+.areas-boxes li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

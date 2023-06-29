@@ -1,0 +1,27 @@
+.introducao-bg {
+    background-image: url(../img/introducao/fundointroducao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: auto;
+}
+
+.introducao {
+    display: grid;
+    grid-template-columns: 0.6fr;
+    gap: 40px;
+}
+
+.introducao-conteudo {
+    align-self: end;
+    margin: 100px 0;
+}
+
+.introducao-botoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin-top: 50px;
+    gap: 2.5rem;
+}
+
