@@ -2,22 +2,24 @@
     background-color: var(--cor-2);
 }
 
+.areas {
+    display: grid;
+    justify-items: center;
+}
+
 .areas h2 {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-/*
-.areas ul {
-    display: grid;
-    margin: 0 auto;
-}*/
-
 .areas-boxes ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: row
+    justify-items: center;
+    align-items: center;
     gap: 40px;
-    margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 .areas-boxes li img {
