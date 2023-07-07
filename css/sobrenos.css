@@ -1,0 +1,21 @@
+.sobrenos-bg {
+    background-color: #1D1E1F;
+    height: 1000px;
+}
+
+.sobrenos {
+}
+
+.sobrenos-firstblock {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    justify-items: center;
+    padding-top: 100px;
+}
+
+.sobrenos-firstblock img {
+    grid-column: 1;
+    grid-row: 1/4;
+}
+

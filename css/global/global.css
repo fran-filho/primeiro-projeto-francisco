@@ -26,3 +26,12 @@ img[src$=".jpg"],
 img[src$=".png"] {
   border-radius: 4px;
 }
+
+.container {
+  box-sizing: border-box;
+  max-width: 1100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
