@@ -8,11 +8,12 @@
 }
 
 .areas h2 {
+    font-size: 2rem;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.areas-boxes ul {
+.areas-lista {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
@@ -21,6 +22,18 @@
     margin-bottom: 100px;
 }
 
+.areas-lista img {
+    width: 22rem;
+    height: 14rem;
+    filter: brightness(50%);
+}
+
+.areas-lista p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+/*
 .areas-boxes li {
     display: block;
     position: relative;
@@ -47,3 +60,4 @@
 .break {
     max-width: fit-content;
 }
+*/
