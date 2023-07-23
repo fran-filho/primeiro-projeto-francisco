@@ -2,62 +2,82 @@
     background-color: var(--cor-2);
 }
 
-.areas {
-    display: grid;
-    justify-items: center;
-}
-
 .areas h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.areas-lista {
+.areas {
+    display: grid;
+    justify-items: center;
+    padding-bottom: 100px;
+}
+
+.areas-boxes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    align-items: center;
+    justify-content: center;
     gap: 30px;
-    margin-bottom: 100px;
 }
 
-.areas-lista img {
-    width: 22rem;
-    height: 14rem;
-    filter: brightness(50%);
-}
-
-.areas-lista p {
-    text-align: center;
-    font-size: 1rem;
-}
-
-/*
-.areas-boxes li {
-    display: block;
+.areas-box {
     position: relative;
-}
-
-.areas-boxes li img {
-    width: 22rem;
-    height: 14rem;
-    filter: brightness(50%);
-}
-
-.areas-boxes p {
-    position: absolute;
-    word-wrap: break-word;
-    width: max-content;
+    width: 18rem;
+    height: 12rem;
     text-align: center;
-    top: 50%;
-    bottom: 50%;
-    left: 30%;
-    right: 30%;
-    color: white;
+    align-self: center;
+    background-size: cover;
+    border-radius: 5px;
 }
 
-.break {
-    max-width: fit-content;
+
+#areas-consumidor {
+    background-image: url(../img/img-areas/img-consumidor.jpg);
 }
-*/
+
+#areas-imobiliario {
+    background-image: url(../img/img-areas/img-imobiliario.jpg);
+}
+
+#areas-familia {
+    background-image: url(../img/img-areas/img-familia.jpg);
+}
+
+#areas-trabalhista {
+    background-image: url(../img/img-areas/img-trabalhista.jpg);
+}
+
+#areas-empresarial {
+    background-image: url(../img/img-areas/img-empresarial.jpg);
+}
+
+#areas-tributario {
+    background-image: url(../img/img-areas/img-tributario.jpg);
+}
+
+.areas-subtitulo {
+    position: absolute;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 100% solid;
+    box-shadow: 0px 2.541820526123047px 2.7479140758514404px 0px rgba(0, 0, 0, 0.09),
+    0px 6.428454875946045px 6.949680805206299px 0px rgba(0, 0, 0, 0.13),
+    0px 13.113445281982422px 14.176697731018066px 0px rgba(0, 0, 0, 0.16),
+    0px 27.01121711730957px 29.201316833496094px 0px rgba(0, 0, 0, 0.20),
+    0px 74px 80px 0px rgba(0, 0, 0, 0.29);
+    text-transform: uppercase;
+    max-width: max-content;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+}
+
+.areas-subtitulo h3:hover {
+    color: var(--cor-2);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
